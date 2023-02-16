@@ -8,22 +8,9 @@
 
 body{
     width: 100vw;
-    background: rgb(118,215,202);
-background: linear-gradient(90deg, rgba(118,215,202,1) 0%, rgba(245,245,249,1) 100%, rgba(244,246,247,1) 100%);
+   background: url(../assets/img/fondo-marmol.jpg);
 
 }
-
-.contenedor{
-    margin-top: 10px;
-    height: 500px;
-    width: 100vw;
-  
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-   
-}
-
 .encabezado {
     height: 100px;
     width: 33vw;
@@ -31,6 +18,7 @@ background: linear-gradient(90deg, rgba(118,215,202,1) 0%, rgba(245,245,249,1) 1
     align-self: center;
     display: flex;
 }
+
 
 .titulo{
     margin-left: 10px;
@@ -53,20 +41,32 @@ h1{
    
    
 }
+.contenedor{
+    margin-top: 10px;
+    height: 500px;
+    width: 100vw;
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   
+}
 
 
 nav{
-    width: 33vw;
+    width: 100vw;
+    margin-left: 1100px;
     gap: 10px;
     align-self: flex-end;
     float: left;
-   
+  
     display: flex;
+    flex-direction: column;
   
 }
 nav a{
     color: black;
-    width: 7rem;
+    width: 15rem;
     height: 2rem;
     background-color: blue;
     border-radius: 10px;
@@ -75,14 +75,17 @@ nav a{
     text-decoration: none;
     font-size: 150%;
 }
+
 .home{
     background-color: green;
 }
 
 .imagen-portada{
     margin-left: 100px;
+    margin-top: 10px;
     height: 10vw;
     width: 66vw;
+  
 }
 
 .imagen1{
@@ -93,38 +96,11 @@ nav a{
     border-radius: 5%;
   
 }
-
-
-.game_rule
-    {
-        display: flex;
-        gap: 10px;
-        align-self: flex-end;
-
-    }
-
-.enlaceg_r{
-    color: black ;
-    width: 9rem;
-    height: 4rem;
-    background-color: blueviolet;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 5px;
-    text-decoration: none;
-    justify-content: center;
-    font-size: 120%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding-top: 15px;
-
-}
-
 .main {
     
     height: 500px;
     width: 100vw;
-    background-color: rgb(72, 145, 190);
+  
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -154,8 +130,8 @@ flex-direction: column;
 
 
 .imag1{
-    margin-left: 30px;
-    width: 100px;
+    margin-left: 25px;
+    width: 80px;
    height: 100px;
    filter: drop-shadow(10px 10px 20px black);
 }
@@ -171,11 +147,13 @@ flex-direction: column;
 
 footer{
     margin-top: 40px;
-    width: 97vw;
-margin-left: 3px;
+   
     background-color: beige;
     height: 2vw;
     font-size: 250% ;
+}
+h6{
+    margin-left: 30px;
 }
 
 .Upcoming{
@@ -313,4 +291,78 @@ h5{
     font-weight: bold;
    
     justify-content: center; 
+}
+
+ .game{
+    background-color: green;
+ }
+ .formulario{
+    background-color: green;
+ }
+ .rules{
+    background-color: green;
+ }
+
+ .titulo-formulario{
+    background-color: rgb(255, 255, 255);
+ }
+
+ form{
+    background-color: rgb(248, 249, 250);
+   margin-left: 20px;
+   width: 96%;
+
+ }
+ .titulo-formulario{
+    margin-left: 20px;
+    width: 96%;
+ }
+ 
+ fieldset{
+    font-size: 200%;
+    color: rgb(14, 14, 15);
+    border: hsl(150, 25%, 98%);
+    margin-top: 5px;
+    margin-left: 20px;
+ }
+ label{
+    font-size: 70%;
+ }
+
+.dale{
+    font-size: 250%;
+    
+ }
+ input{
+    font-size: 80%;
+ }
+ .Enviar{
+    margin-top: 20px;
+margin-left: 600px;
+   text-align: center;
+    font-size: 200% ;
+ }
+
+.tex-play{
+font-style: 100%;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 30px;
+text-align: center;
+ }
+
+.regreso{
+    
+}
+iframe{
+    margin-left: 50px;
+    width: 80vw;
+    height:80vw;
+}
+.botonre{
+ margin-left: 1000px;
+    width: 10vw;
+ height: 10vw;
+   background-color: black;
+   border-radius: 10%;
 }
